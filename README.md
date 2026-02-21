@@ -12,7 +12,7 @@ I'm a backend-focused developer who loves building tools that save people time. 
 
 **[When](https://github.com/yonid4/when)** — Smart event coordination app that finds the best meeting times across Google Calendar and Outlook. Uses Gemini AI to propose optimal slots based on participant availability, with real-time updates, timezone support, and calendar invites.
 
-**[VALORANT Rank & Skin Viewer]([https://github.com/yonidayagi/valorant-rank-viewer)](https://github.com/yonid4/VALORANT-rank-yoinker))** *(open source contribution)* — Python tool that retrieves players' competitive ranks and equipped skins during a live VALORANT match.
+**[VALORANT Rank & Skin Viewer](https://github.com/yonid4/VALORANT-rank-yoinker)** *(open source contribution)* — Python tool that retrieves players' competitive ranks and equipped skins during a live VALORANT match.
 
 ---
 
