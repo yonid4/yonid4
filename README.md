@@ -63,8 +63,6 @@ I build tools that save people time — usually by combining **AI** with **pract
 | What I Did | Impact |
 |---|---|
 | Built an AI-powered RFP analysis tool | ⏱️ Reduced review time from **2–3 days → under 8 minutes** |
-| Advocated for Gemini over OpenAI | 📈 Accuracy jumped from **~80% → 95%+**, speed improved **50%+** |
-| Built RAG pipeline with ChromaDB | 🎯 Semantic search with **70%+ accuracy** on first iteration |
 | De-risked development through proactive communication | 🛡️ Prevented **2+ days** of rework |
 
 ---
@@ -73,9 +71,9 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yonidayagi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yonid4&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yonidayagi&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yonid4&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
