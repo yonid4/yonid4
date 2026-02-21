@@ -8,9 +8,9 @@ I'm a backend-focused developer who loves building tools that save people time. 
 
 ### What I've Built
 
-**[JobOS](https://github.com/yonid4/JobOS)** — AI-powered LinkedIn job scraper that reads your resume, searches LinkedIn with your filters, and uses Google Gemini to score and surface only the best-matching jobs. Includes CAPTCHA handling, application tracking, cover letter generation, and Supabase auth.
-
 **[When](https://github.com/yonid4/when)** — Smart event coordination app that finds the best meeting times across Google Calendar and Outlook. Uses Gemini AI to propose optimal slots based on participant availability, with real-time updates, timezone support, and calendar invites.
+
+**[JobOS](https://github.com/yonid4/JobOS)** — AI-powered LinkedIn job scraper that reads your resume, searches LinkedIn with your filters, and uses Google Gemini to score and surface only the best-matching jobs. Includes CAPTCHA handling, application tracking, cover letter generation, and Supabase auth.
 
 **[VALORANT Rank & Skin Viewer](https://github.com/yonid4/VALORANT-rank-yoinker)** *(open source contribution)* — Python tool that retrieves players' competitive ranks and equipped skins during a live VALORANT match.
 
