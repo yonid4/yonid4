@@ -25,7 +25,7 @@ Built an AI-powered RFP analysis tool that cut document review time from 2–3 d
 
 ### Tech I Use
 
-`Python` · `JavaScript` · `Google Gemini API` · `OpenAI API` · `Supabase` · `ChromaDB` · `RAG` · `OAuth` · `LinkedIn Scraping`
+`Python` · `JavaScript` · `Google Gemini API` · `OpenAI API` · `Supabase` · `ChromaDB` · `RAG` · `OAuth`
 
 ---
 
