@@ -5,7 +5,7 @@
 **Backend Developer · AI Enthusiast · Bay Area, CA**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yoni-dayagi)
-[![Open to Work](https://img.shields.io/badge/🟢_OPEN_TO_WORK-Backend_/_Full--Stack-2ea44f?style=for-the-badge)]
+![Open to Work](https://img.shields.io/badge/🟢_OPEN_TO_WORK-Backend_/_Full--Stack-2ea44f?style=for-the-badge)
 
 </div>
 
