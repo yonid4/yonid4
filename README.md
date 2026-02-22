@@ -71,9 +71,7 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 <div align="center">
 
-![GitHub Stats]([https://streak-stats.demolab.com/?user=yonid4&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yonid4&layout=compact&theme=tokyonight&hide_border=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=yonid4&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
