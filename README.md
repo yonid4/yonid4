@@ -33,7 +33,7 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 ## 🚀 Featured Projects
 
-### [When](https://github.com/yonid4/when) — Smart Group Scheduling
+### [When](https://github.com/yonid4/when) — Smart Group Scheduling &nbsp; [![Live Site](https://img.shields.io/badge/Live_Site-Visit-2ea44f?style=flat-square)](https://when-now.com)
 > Find the perfect meeting time across everyone's calendars — powered by AI
 
 - 🗓️ Google Calendar + Microsoft Outlook integration via OAuth
