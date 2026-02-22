@@ -51,8 +51,10 @@ I build tools that save people time — usually by combining **AI** with **pract
 - 📝 Resume skill extraction, gap analysis & cover letter generation
 - 🔐 Supabase auth with email verification & row-level security
 
-### 🎮 VALORANT Rank & Skin Viewer *(Open Source Contribution)*
+### 🎮 [VALORANT Rank & Skin Viewer](https://github.com/yonid4/VALORANT-rank-yoinker) *(Open Source Contribution)*
 > Python tool that retrieves players' ranks and equipped skins during a live match
+
+Contributed: dual-weapon skin display, WebSocket reconnection stability, and main loop performance optimizations.
 
 ---
 
