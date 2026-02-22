@@ -67,16 +67,6 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=yonid4&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
 <div align="center">
 
 📫 **Interested in working together?** Let's connect on [LinkedIn](https://linkedin.com/in/yoni-dayagi)!
