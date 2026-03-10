@@ -42,14 +42,14 @@ I build tools that save people time — usually by combining **AI** with **pract
 - 🌐 Full timezone support (UTC storage, local display)
 - 📨 In-app notifications, RSVP tracking & calendar invites
 
-### [JobOS](https://github.com/yonid4/JobOS) — AI Job Matching Engine
-> Upload your resume → set LinkedIn filters → get AI-scored job matches
+### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI-Filtered Job Scraper
+> Drop in your resume → it scrapes job boards, scores every listing, and logs only the best matches
 
-- 🤖 **Gemini AI** scores and explains why each job fits your background
-- 🔍 LinkedIn scraping with persistent sessions, CAPTCHA handling & anti-detection
-- 📊 Full application tracker with lifecycle management & analytics
-- 📝 Resume skill extraction, gap analysis & cover letter generation
-- 🔐 Supabase auth with email verification & row-level security
+- 🤖 **Gemini AI** scores resume-to-job fit (0–100) — only jobs ≥ 80 make the cut
+- 🔍 Multi-board scraping across LinkedIn, Indeed, Glassdoor & more via python-jobspy
+- 📄 Resume PDF auto-parsed and cached — re-parses only when you update it
+- 📊 Qualifying jobs written directly to a **Google Sheet** tracker, duplicates skipped
+- ⚙️ Fully configurable: search term, location, remote, job type, experience level & recency
 
 ---
 
