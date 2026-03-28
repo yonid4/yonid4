@@ -67,6 +67,6 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 <div align="center">
 
-📫 **Interested in working together?** Connect on [LinkedIn](https://linkedin.com/in/yoni-dayagi) or visit [yonidayagi.com](https://yonidayagi.com)
+📫 **Interested in working together?** Connect on [LinkedIn](https://linkedin.com/in/yoni-dayagi) or visit [yonidayagi.com](https://portfolio-4ge8aepog-yonis-projects-dd28e0a3.vercel.app/)
 
 </div>
