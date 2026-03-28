@@ -5,7 +5,7 @@
 **Backend Developer · AI Enthusiast · Bay Area, CA**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yoni-dayagi)&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-yonidayagi.com-00FF41?style=for-the-badge)](https://yoni-dayagi-portfolio.vercel.app/)&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-yonidayagi.com-00FF41?style=for-the-badge)](https://www.yonidayagi.me/)&nbsp;&nbsp;
 [![Open to Work](https://img.shields.io/badge/🟢_OPEN_TO_WORK-Backend_/_Full--Stack-2ea44f?style=for-the-badge)](https://linkedin.com/in/yoni-dayagi)
 
 </div>
@@ -67,6 +67,6 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 <div align="center">
 
-📫 **Interested in working together?** Connect on [LinkedIn](https://linkedin.com/in/yoni-dayagi) or visit [yonidayagi.com](https://yoni-dayagi-portfolio.vercel.app/)
+📫 **Interested in working together?** Connect on [LinkedIn](https://linkedin.com/in/yoni-dayagi) or visit [yonidayagi.com](https://www.yonidayagi.me/)
 
 </div>
