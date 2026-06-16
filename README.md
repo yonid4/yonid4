@@ -34,7 +34,7 @@ I build tools that save people time — usually by combining **AI** with **pract
 
 ## 🚀 Featured Projects
 
-### [When](https://github.com/yonid4/when) — Smart Group Scheduling &nbsp; [![LiveSite](https://img.shields.io/badge/Live_Site-Visit-2ea44f?style=flat-square)](https://when-now.com)
+### [When](https://github.com/yonid4/when-V2) — Smart Group Scheduling &nbsp; [![LiveSite](https://img.shields.io/badge/Live_Site-Visit-2ea44f?style=flat-square)](https://when-now.com)
 > Find the best meeting time across everyone's calendars — without the back-and-forth
 
 - 🗓️ Google Calendar + Microsoft Outlook sync via OAuth — multiple accounts per user, busy slots refreshed hourly
