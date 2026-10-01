@@ -47,14 +47,15 @@ I build tools that save people time — usually by combining **AI** with **pract
 - 📅 One-click finalize writes the event onto each participant's own calendar — reliably, cross-provider
 - 🌐 Full timezone support (UTC storage, local display)
 
-### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI-Filtered Job Scraper
-> Drop in your resume → it scrapes job boards, scores every listing, and logs only the best matches
+### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI Job Search Pipeline
+> Finds jobs that fit your resume, tracks them in a Google Sheet, and keeps each application's status up to date from your inbox
 
-- 🤖 **Gemini AI** scores resume-to-job fit (0–100) — only jobs ≥ 80 make the cut
-- 🔍 Multi-board scraping across LinkedIn, Indeed, Glassdoor & more via python-jobspy
-- 📄 Resume PDF auto-parsed and cached — re-parses only when you update it
-- 📊 Qualifying jobs written directly to a **Google Sheet** tracker, duplicates skipped
-- ⚙️ Fully configurable: search term, location, remote, job type, experience level & recency
+- 🤖 **Gemini AI** scores resume-to-job fit (0–100); only jobs ≥ 80 reach the sheet, sorted by score, with company blocklist & API key rotation
+- 🔍 Pluggable scrapers: LinkedIn (session-cookie auth) or hiring.cafe (no auth), picked with one setting
+- 📬 Gmail tracker classifies recruiting emails (rejection, OA, interview, offer) and updates the matching row automatically
+- 🧠 Cheap rules first: a weighted phrase matcher handles most emails, and only unclear ones go to Gemini, in batches
+- 🪜 Forward-only status ladder: a late auto-reply can't knock a row back from "Interviewing", and rows you closed yourself are never overwritten
+- 🔔 Discord pings for assessments, interviews & offers; runs daily on **GitHub Actions** with a dry-run mode and offline tests
 
 ### [Boulder Bay](https://github.com/yonid4/boulder-bay) — Bay Area Climbing Gym Crowd Tracker &nbsp; ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat-square)
 > Which bouldering gym should I go to right now? Live crowd levels, best times to climb, and a ranked pick based on where you are
