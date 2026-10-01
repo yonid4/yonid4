@@ -40,21 +40,33 @@ I build tools that save people time — usually by combining **AI** with **pract
 ### [When](https://github.com/yonid4/when-V2) — Smart Group Scheduling &nbsp; [![LiveSite](https://img.shields.io/badge/Live_Site-Visit-2ea44f?style=flat-square)](https://when-now.com)
 > Find the best meeting time across everyone's calendars — without the back-and-forth
 
-- 🗓️ Google Calendar + Microsoft Outlook sync via OAuth — multiple accounts per user, busy slots refreshed hourly
-- 📊 Interactive availability heatmap + preferred-slot marking show where everyone's actually free
-- 🎯 Scoring algorithm ranks candidate times by real calendar conflicts & stated preferences, surfacing the top picks
-- ⚡ Real-time collaboration via Supabase subscriptions (live syncs, RSVPs & proposal updates)
-- 📅 One-click finalize writes the event onto each participant's own calendar — reliably, cross-provider
-- 🌐 Full timezone support (UTC storage, local display)
+- 🗓️ Google Calendar + Microsoft Outlook sync through a shared provider layer: multiple accounts per user, busy slots refreshed hourly by a background scheduler
+- 📊 Interactive availability heatmap, plus swipe-to-mark preferred slots so people can show their ideal times, not just their open ones
+- 🎯 Ranking algorithm scores candidate times by calendar conflicts & preferred-slot overlap, handles overnight windows, skips past times, and surfaces the top 5
+- ⚡ Real-time collaboration via Supabase Realtime: live calendar syncs, RSVPs & proposal updates for every viewer
+- 📅 One-click finalize writes the event onto each participant's own calendar with their own provider; people without a connected calendar get an emailed invite
+- 🔐 Expired calendar tokens are detected and prompt a reconnect; account deletion revokes OAuth tokens before removing data
+- 🧪 Over 280 backend tests (pytest) plus a Vitest frontend suite; Supabase Row Level Security on every table
 
-### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI-Filtered Job Scraper
-> Drop in your resume → it scrapes job boards, scores every listing, and logs only the best matches
+### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI Job Search Pipeline
+> Finds jobs that fit your resume, tracks them in a Google Sheet, and keeps each application's status up to date from your inbox
 
-- 🤖 **Gemini AI** scores resume-to-job fit (0–100) — only jobs ≥ 80 make the cut
-- 🔍 Multi-board scraping across LinkedIn, Indeed, Glassdoor & more via python-jobspy
-- 📄 Resume PDF auto-parsed and cached — re-parses only when you update it
-- 📊 Qualifying jobs written directly to a **Google Sheet** tracker, duplicates skipped
-- ⚙️ Fully configurable: search term, location, remote, job type, experience level & recency
+- 🤖 **Gemini AI** scores resume-to-job fit (0–100); only jobs ≥ 80 reach the sheet, sorted by score, with company blocklist & API key rotation
+- 🔍 Pluggable scrapers: LinkedIn (session-cookie auth) or hiring.cafe (no auth), picked with one setting
+- 📬 Gmail tracker classifies recruiting emails (rejection, OA, interview, offer) and updates the matching row automatically
+- 🧠 Cheap rules first: a weighted phrase matcher handles most emails, and only unclear ones go to Gemini, in batches
+- 🪜 Forward-only status ladder: a late auto-reply can't knock a row back from "Interviewing", and rows you closed yourself are never overwritten
+- 🔔 Discord pings for assessments, interviews & offers; runs daily on **GitHub Actions** with a dry-run mode and offline tests
+
+### [Boulder Bay](https://github.com/yonid4/boulder-bay) — Bay Area Climbing Gym Crowd Tracker &nbsp; ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat-square)
+> Which bouldering gym should I go to right now? Live crowd levels, best times to climb, and a ranked pick based on where you are
+
+- 📱 Native **SwiftUI** iOS app (MapKit, MVVM with `@Observable`) backed by a **FastAPI** service
+- 🗺️ Supabase Postgres + **PostGIS** schema with a hand-verified seed of 16 Bay Area gyms, their hours & rates
+- 🔐 Supabase Auth with ES256 JWT verification against the project's JWKS
+- 🕷️ Headless Playwright scraper reads Google's popular-times data (live + weekly curve), with retries for flaky page loads
+- 🎯 *Planned:* ranking that weighs crowd level, travel time (Mapbox) and your gym memberships, plus a time scrubber to see projected crowds
+- ✅ CI on every push: ruff, strict mypy & pytest for the backend, plus `xcodebuild test` for the app
 
 ---
 
