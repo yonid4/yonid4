@@ -56,6 +56,16 @@ I build tools that save people time — usually by combining **AI** with **pract
 - 📊 Qualifying jobs written directly to a **Google Sheet** tracker, duplicates skipped
 - ⚙️ Fully configurable: search term, location, remote, job type, experience level & recency
 
+### [Boulder Bay](https://github.com/yonid4/boulder-bay) — Bay Area Climbing Gym Crowd Tracker &nbsp; ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=flat-square)
+> Which bouldering gym should I go to right now? Live crowd levels, best times to climb, and a ranked pick based on where you are
+
+- 📱 Native **SwiftUI** iOS app (MapKit, MVVM with `@Observable`) backed by a **FastAPI** service
+- 🗺️ Supabase Postgres + **PostGIS** schema with a hand-verified seed of 16 Bay Area gyms, their hours & rates
+- 🔐 Supabase Auth with ES256 JWT verification against the project's JWKS
+- 🕷️ Headless Playwright scraper reads Google's popular-times data (live + weekly curve), with retries for flaky page loads
+- 🎯 *Planned:* ranking that weighs crowd level, travel time (Mapbox) and your gym memberships, plus a time scrubber to see projected crowds
+- ✅ CI on every push: ruff, strict mypy & pytest for the backend, plus `xcodebuild test` for the app
+
 ---
 
 ## 💼 Experience
