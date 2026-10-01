@@ -40,12 +40,13 @@ I build tools that save people time — usually by combining **AI** with **pract
 ### [When](https://github.com/yonid4/when-V2) — Smart Group Scheduling &nbsp; [![LiveSite](https://img.shields.io/badge/Live_Site-Visit-2ea44f?style=flat-square)](https://when-now.com)
 > Find the best meeting time across everyone's calendars — without the back-and-forth
 
-- 🗓️ Google Calendar + Microsoft Outlook sync via OAuth — multiple accounts per user, busy slots refreshed hourly
-- 📊 Interactive availability heatmap + preferred-slot marking show where everyone's actually free
-- 🎯 Scoring algorithm ranks candidate times by real calendar conflicts & stated preferences, surfacing the top picks
-- ⚡ Real-time collaboration via Supabase subscriptions (live syncs, RSVPs & proposal updates)
-- 📅 One-click finalize writes the event onto each participant's own calendar — reliably, cross-provider
-- 🌐 Full timezone support (UTC storage, local display)
+- 🗓️ Google Calendar + Microsoft Outlook sync through a shared provider layer: multiple accounts per user, busy slots refreshed hourly by a background scheduler
+- 📊 Interactive availability heatmap, plus swipe-to-mark preferred slots so people can show their ideal times, not just their open ones
+- 🎯 Ranking algorithm scores candidate times by calendar conflicts & preferred-slot overlap, handles overnight windows, skips past times, and surfaces the top 5
+- ⚡ Real-time collaboration via Supabase Realtime: live calendar syncs, RSVPs & proposal updates for every viewer
+- 📅 One-click finalize writes the event onto each participant's own calendar with their own provider; people without a connected calendar get an emailed invite
+- 🔐 Expired calendar tokens are detected and prompt a reconnect; account deletion revokes OAuth tokens before removing data
+- 🧪 Over 280 backend tests (pytest) plus a Vitest frontend suite; Supabase Row Level Security on every table
 
 ### [Job Autopilot](https://github.com/yonid4/job-autopilot) — AI Job Search Pipeline
 > Finds jobs that fit your resume, tracks them in a Google Sheet, and keeps each application's status up to date from your inbox
